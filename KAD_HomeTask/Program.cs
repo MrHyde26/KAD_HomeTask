@@ -24,11 +24,19 @@ namespace KAD_HomeTask
             //string str2="Привет " + str1;
             //Console.WriteLine(str2);
 
-            //Задание 3
+            ////Задание 3
 
-            var v1 = 'v';
-            v1 = 'r';
-            Console.WriteLine(v1);
+            //var v1 = 'v';
+            //v1 = 'r';
+            //Console.WriteLine(v1);
+
+            //Задание 4
+
+            Console.WriteLine("Введите длину стороны квадрата");
+            string s = Console.ReadLine();
+            int x = Convert.ToInt32(s);
+            int p = 4 * x;
+            Console.WriteLine($"Периметр квадрата {p}");
         }
     }
 }
