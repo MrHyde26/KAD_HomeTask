@@ -38,16 +38,28 @@ namespace KAD_HomeTask
             //int p = 4 * x;
             //Console.WriteLine($"Периметр квадрата {p}");
 
-            //Задание 5
+            ////Задание 5
 
-            double r1 = 8;
-            double r2 = 6;
-            double s1, s2,s3;
-            const double pi = 3.14;
-            s1 = pi * r1 * r1;
-            s2 = pi * r2 * r2;
-            s3 = s1 - s2;
-            Console.WriteLine($"Площадь первого круга равна {s1}, площадь второго круга равна {s2}, площадь кольца равна {s3}");
+            //double r1 = 8;
+            //double r2 = 6;
+            //double s1, s2,s3;
+            //const double pi = 3.14;
+            //s1 = pi * r1 * r1;
+            //s2 = pi * r2 * r2;
+            //s3 = s1 - s2;
+            //Console.WriteLine($"Площадь первого круга равна {s1}, площадь второго круга равна {s2}, площадь кольца равна {s3}");
+
+            //Задание 6
+
+            Console.WriteLine("Введите двузначное число");
+            string strx = Console.ReadLine();
+            int x = Convert.ToInt32(strx);
+            int a, b;
+            b = x / 10;
+            a = x % 10;
+            Console.WriteLine($"Левая сторона {b}");
+            Console.WriteLine($"Правая сторона {a}");
+            
         }
     }
 }
