@@ -49,16 +49,22 @@ namespace KAD_HomeTask
             //s3 = s1 - s2;
             //Console.WriteLine($"Площадь первого круга равна {s1}, площадь второго круга равна {s2}, площадь кольца равна {s3}");
 
-            //Задание 6
+            ////Задание 6
 
-            Console.WriteLine("Введите двузначное число");
-            string strx = Console.ReadLine();
-            int x = Convert.ToInt32(strx);
-            int a, b;
-            b = x / 10;
-            a = x % 10;
-            Console.WriteLine($"Левая сторона {b}");
-            Console.WriteLine($"Правая сторона {a}");
+            //Console.WriteLine("Введите двузначное число");
+            //string strx = Console.ReadLine();
+            //int x = Convert.ToInt32(strx);
+            //int a, b;
+            //b = x / 10;
+            //a = x % 10;
+            //Console.WriteLine($"Левая сторона {b}");
+            //Console.WriteLine($"Правая сторона {a}");
+
+            //Задание 7
+            int a = 123;
+            int b = 987;
+            long c = a + b;
+            Console.WriteLine(c);
             
         }
     }
