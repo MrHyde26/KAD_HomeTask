@@ -71,7 +71,27 @@ namespace KAD_HomeTask
             long b = 12312414124;
             byte c = (byte)(a +b);
             Console.WriteLine(c);
-            
+
+
+            //Задание 9
+            int x1 = 3;
+            int x2 = 4;
+            Console.WriteLine($"X1={x1}, X2={x2}");
+
+            //Способ 1
+            x1 = x1 + x2;
+            x2 = x1 - x2;
+            x1 = x1 - x2;
+            Console.WriteLine($"После смены местами первым способом X1={x1}, X2={x2}");
+
+            //Способ 2
+            int y;
+            y = x1;
+            x1 = x2;
+            x2 = y;
+            Console.WriteLine($"После смены местами вторым способом  переменные возвращаются в исходный порядок X1={x1}, X2={x2}");
+
+
         }
     }
 }
