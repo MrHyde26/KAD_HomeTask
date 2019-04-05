@@ -72,7 +72,6 @@ namespace KAD_HomeTask
             byte c = (byte)(a +b);
             Console.WriteLine(c);
 
-
             //Задание 9
             int x1 = 3;
             int x2 = 4;
@@ -90,8 +89,6 @@ namespace KAD_HomeTask
             x1 = x2;
             x2 = y;
             Console.WriteLine($"После смены местами вторым способом  переменные возвращаются в исходный порядок X1={x1}, X2={x2}");
-
-
         }
     }
 }
