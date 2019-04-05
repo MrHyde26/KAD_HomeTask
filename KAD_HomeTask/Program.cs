@@ -60,10 +60,16 @@ namespace KAD_HomeTask
             //Console.WriteLine($"Левая сторона {b}");
             //Console.WriteLine($"Правая сторона {a}");
 
-            //Задание 7
-            int a = 123;
-            int b = 987;
-            long c = a + b;
+            ////Задание 7
+            //int a = 123;
+            //int b = 987;
+            //long c = a + b;
+            //Console.WriteLine(c);
+
+            //Задание 8
+            long a = 23423;
+            long b = 12312414124;
+            byte c = (byte)(a +b);
             Console.WriteLine(c);
             
         }
